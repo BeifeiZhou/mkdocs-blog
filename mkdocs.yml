@@ -1,4 +1,5 @@
 site_name: Research group name
+dev_addr: 127.0.0.1:8001
 
 theme:
   name: null
@@ -15,7 +16,7 @@ theme:
 
 
 nav:
-  - What selfies mean for avatars in VR and the way we perceive ourselves: text1.md
+  - Amazon is eating the software (which is eating the world around us): text1.md
 
 markdown_extensions:
   - admonition
