@@ -16,7 +16,12 @@ theme:
 
 nav:
   - Amazon is eating the software (which is eating the world around us): text1.md
-  - Text2: text2.md
+  - This is the replicate of the first text: text2.md
+  - This is the replicate of the first text: text3.md
+  - This is the replicate of the first text: text4.md
+  - This is the replicate of the first text: text5.md
+  - This is the replicate of the first text: text6.md
+  
 
 markdown_extensions:
   - admonition

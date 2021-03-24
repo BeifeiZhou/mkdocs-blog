@@ -35,17 +35,19 @@
   <link href="{{ 'pages/assets/lib/owl.carousel/owl.carousel.css'|url }}" rel="stylesheet">
   <link href="{{ 'pages/assets/css/theme.css'|url }}" rel="stylesheet">
   <style>
-    .btn-outline-primary{
+    .btn-outline-primary {
       cursor: pointer;
       color: #000;
       border-color: #000;
     }
-    .btn-outline-primary:disabled{
+
+    .btn-outline-primary:disabled {
       color: #000;
       border-color: #000;
       opacity: .3;
     }
-    .btn-outline-primary:not(:disabled):hover{
+
+    .btn-outline-primary:not(:disabled):hover {
       background-color: #000;
       border-color: #000;
     }
@@ -104,12 +106,12 @@
               class="fancynav-link-content">Team</span></a></li>
         <li class="fancynav-item"><a class="fancynav-link" href="http://127.0.0.1:8000/publications/"><span
               class="fancynav-link-content">Publications</span></a></li>
-        <li class="fancynav-item"><a class="fancynav-link" href="http://127.0.0.1:8000/news/"><span
-              class="fancynav-link-content">News</span></a></li>
         <li class="fancynav-item"><a class="fancynav-link" href="http://127.0.0.1:8000/contact/"><span
               class="fancynav-link-content">Contact</span></a></li>
         <li class="fancynav-item"><a class="fancynav-link" href="http://127.0.0.1:8000/joinus/"><span
               class="fancynav-link-content">Join us</span></a></li>
+        <li class="fancynav-item"><a class="fancynav-link" href="http://127.0.0.1:8001/"><span
+              class="fancynav-link-content">News</span></a></li>
       </ul>
     </div>
   </nav>
@@ -168,7 +170,7 @@
     <!-- ============================================-->
     <!-- <section> begin ============================-->
     <section>
-      <div class="container"> 
+      <div class="container">
         <div class="row">
           <div class="col-lg-8">
             {% if page.is_homepage %}
@@ -235,7 +237,7 @@
             <!-- ============================================-->
             {% endif %}
           </div>
-          
+
           <div class="col-lg-4 mt-6 mt-lg-0 pl-xl-7">
             <div class="row px-2">
               <div class="col">
