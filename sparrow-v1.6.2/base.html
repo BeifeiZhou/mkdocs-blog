@@ -181,14 +181,14 @@
               <a class="text-black" href="{{ nav_item.url|url }}">
                 <h3>{{ nav_item.title }}</h3>
               </a>
-              <p class="mt-4">......</p>
+              <p class="mt-4">{{page.meta.description}}</p>
               <a class="btn btn-link pl-0" href="{{ nav_item.url|url }}">read more
                 <span class="d-inline-block ml-1">&xrarr;</span></a><br><a href="#"></a>
             </div>
             {% endfor %}
             {% endif %}
 
-            <nav aria-label="Blog Pagination">
+            <!-- <nav aria-label="Blog Pagination">
               <ul class="pagination justify-content-center">
                 <li class="page-item d-none d-lg-block"><a class="page-link" href="#">First</a></li>
                 <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span class="fa fa-caret-left"
@@ -202,18 +202,18 @@
                       aria-hidden="true"></span><span class="sr-only">Next</span></a></li>
                 <li class="page-item d-none d-lg-block"><a class="page-link" href="#">Last</a></li>
               </ul>
-            </nav>
+            </nav> -->
             {% else %}
             <!-- ============================================-->
             <!-- <section> begin ============================-->
-            <section class="pb-0">
-              <div class="container">
-                <div class="row">
+            <!-- <section class="pb-0"> -->
+              <!-- <div class="container"> -->
+                <!-- <div class="row"> -->
                   {%- block content %}
-                  <div class="col-md-3">{% include "toc.html" %}</div>
-                  <div class="col-md-9" role="main">{% include "content.html" %}</div>
+                  <!-- <div class="col-md-3">{% include "toc.html" %}</div> -->
+                  <div class="col-md-12" role="main">{% include "content.html" %}</div>
                   {%- endblock %}
-                </div>
+                <!-- </div> -->
                 <!-- <div class="row" style="display: flex;justify-content: space-between;margin-bottom: 1rem">
                   {%- block next_prev %}
                   {%- if page and (page.next_page or page.previous_page) %}
@@ -230,9 +230,9 @@
                   {%- endif %}
                   {%- endblock %}
                 </div> -->
-              </div>
+              <!-- </div> -->
               <!-- end of .container-->
-            </section>
+            <!-- </section> -->
             <!-- <section> close ============================-->
             <!-- ============================================-->
             {% endif %}
