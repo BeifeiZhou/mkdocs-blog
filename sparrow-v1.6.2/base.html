@@ -34,6 +34,22 @@
   <link href="{{ 'pages/assets/lib/fancybox/jquery.fancybox.min.css'|url }}" rel="stylesheet">
   <link href="{{ 'pages/assets/lib/owl.carousel/owl.carousel.css'|url }}" rel="stylesheet">
   <link href="{{ 'pages/assets/css/theme.css'|url }}" rel="stylesheet">
+  <style>
+    .btn-outline-primary{
+      cursor: pointer;
+      color: #000;
+      border-color: #000;
+    }
+    .btn-outline-primary:disabled{
+      color: #000;
+      border-color: #000;
+      opacity: .3;
+    }
+    .btn-outline-primary:not(:disabled):hover{
+      background-color: #000;
+      border-color: #000;
+    }
+  </style>
 </head>
 
 <body class="has-sidemenu overflow-hidden-x">
@@ -46,8 +62,8 @@
     data-zanim-xs='{"from":{"opacity":1,"y":-43},"to":{"opacity":1,"y":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}'
     data-zanim-trigger="scroll" data-exclusive="true">
     <div class="fancynavbar-togglerbar" data-onscroll-fade-in="data-onscroll-fade-in"><a class="fancynavbar-brand"
-        href="index.html"><img class="fancynavbar-brand-img" src="{{ 'pages/assets/img/imageonline-co-textimage_corben700.png'|url }}"
-          alt="" width="30" height="30"
+        href="index.html"><img class="fancynavbar-brand-img"
+          src="{{ 'pages/assets/img/imageonline-co-textimage_corben700.png'|url }}" alt="" width="30" height="30"
           data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}'
           data-zanim-trigger="scroll" />
         <!--You can use icon or text logo as well-->
@@ -67,16 +83,16 @@
         data-zanim-lg='{"from":{"opacity":1,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}'
         data-zanim-trigger="scroll"><a class="fancynavbar-addon-item" href="https://twitter.com/wallacemwang?s=11"><span
             class="fab fa-twitter"></span></a>
-            <!-- <a class="fancynavbar-addon-item" href="#languageModal"
+        <!-- <a class="fancynavbar-addon-item" href="#languageModal"
           data-toggle="modal"><span class="text-sans-serif ls font-weight-black fs--1 d-block">EN</span></a> -->
-          {%- block search_button %}
-          {%- if 'search' in config['plugins'] %}
-              <a href="#" class="nav-link fancynavbar-addon-item" data-toggle="modal" data-target="#mkdocs_search_modal">
-                  <i class="fa fa-search"></i>
-              </a>
-          {%- endif %}
+        {%- block search_button %}
+        {%- if 'search' in config['plugins'] %}
+        <a href="#" class="nav-link fancynavbar-addon-item" data-toggle="modal" data-target="#mkdocs_search_modal">
+          <i class="fa fa-search"></i>
+        </a>
+        {%- endif %}
         {%- endblock %}
-        </div>
+      </div>
     </div>
     <div class="fancynavbar-collapse">
       <ul class="fancynavbar-nav">
@@ -106,7 +122,7 @@
   <!--    Main Content-->
   <!-- ===============================================-->
   <main class="main min-vh-100" id="top">
-
+    {% if page.is_homepage %}
     <!-- ============================================-->
     <!-- Preloader ==================================-->
     <div class="preloader" id="preloader">
@@ -124,6 +140,7 @@
 
     <!-- ============================================-->
     <!-- <section> begin ============================-->
+
     <section class="py-9 py-lg-10" id="page-blog" data-zanim-xs='{"delay":0.4,"animation":"zoom-out"}'
       data-zanim-trigger="scroll">
       <div class="bg-holder" style="background-image:url(pages/assets/img/blog-header.jpg);"></div>
@@ -144,44 +161,22 @@
       </div><!-- end of .container-->
     </section><!-- <section> close ============================-->
     <!-- ============================================-->
+    {% endif %}
 
 
 
     <!-- ============================================-->
     <!-- <section> begin ============================-->
     <section>
-      <div class="container">
+      <div class="container"> 
         <div class="row">
           <div class="col-lg-8">
-            <!-- {% if nav|length>1 %}
-            {% for nav_item in nav %}
-            {% if nav_item.children %}
-            <li class="fancynav-item">{{ nav_item.title }}
-              <ul>
-                {% for nav_item in nav_item.children %}
-                <li class="{% if nav_item.active%}current{% endif %} fancynav-item">
-                  <a class="fancynav-link" href="{{ nav_item.url|url }}">
-                    <span class="fancynav-link-content">{{ nav_item.title }}</span>
-                  </a>
-                </li>
-                {% endfor %}
-              </ul>
-            </li>
-            {% else %}
-            <li class="{% if nav_item.active%}current{% endif %} fancynav-item">
-              <a class="fancynav-link" href="{{ nav_item.url|url }}">
-                <span class="fancynav-link-content">{{ nav_item.title }}</span>
-              </a>
-            </li>
-            {% endif %}
-            {% endfor %}
-            {% endif %} -->
-
+            {% if page.is_homepage %}
             {% if nav|length>=1 %}
             {% for nav_item in nav %}
             <div class="mb-6 mb-xl-8">
               <!-- <a class="text-sans-serif text-500" href="#">{{ nav_item.revision_date }}</a> -->
-              <a class="{% if nav_item.active%}current{% endif %} text-black" href="{{ nav_item.url|url }}">
+              <a class="text-black" href="{{ nav_item.url|url }}">
                 <h3>{{ nav_item.title }}</h3>
               </a>
               <p class="mt-4">......</p>
@@ -191,8 +186,6 @@
             {% endfor %}
             {% endif %}
 
-
-            {% if page.is_homepage %}
             <nav aria-label="Blog Pagination">
               <ul class="pagination justify-content-center">
                 <li class="page-item d-none d-lg-block"><a class="page-link" href="#">First</a></li>
@@ -208,8 +201,41 @@
                 <li class="page-item d-none d-lg-block"><a class="page-link" href="#">Last</a></li>
               </ul>
             </nav>
+            {% else %}
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pb-0">
+              <div class="container">
+                <div class="row">
+                  {%- block content %}
+                  <div class="col-md-3">{% include "toc.html" %}</div>
+                  <div class="col-md-9" role="main">{% include "content.html" %}</div>
+                  {%- endblock %}
+                </div>
+                <!-- <div class="row" style="display: flex;justify-content: space-between;margin-bottom: 1rem">
+                  {%- block next_prev %}
+                  {%- if page and (page.next_page or page.previous_page) %}
+                  <button id="prev" type="button" data-url="{{ page.previous_page.url|url }}"
+                    class="btn btn-outline-primary btn-sm" {% if not page.previous_page %}disabled="disabled" {% endif
+                    %}>
+                    <i class="fa fa-arrow-left"></i> Previous
+                  </button>
+                  <button id="next" data-url="{{ page.next_page.url|url }}" type="button"
+                    class="btn btn-outline-primary btn-sm" {% if not page.next_page %}disabled="disabled" {% endif %}>
+                    Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                  </button>
+                  {%- endif %}
+                  {%- endblock %}
+                </div> -->
+              </div>
+              <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
             {% endif %}
           </div>
+          
           <div class="col-lg-4 mt-6 mt-lg-0 pl-xl-7">
             <div class="row px-2">
               <div class="col">

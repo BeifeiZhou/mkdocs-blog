@@ -14,7 +14,6 @@ theme:
     previous: 80 # p
     search: 83   # s
 
-
 nav:
   - Amazon is eating the software (which is eating the world around us): text1.md
   - Text2: text2.md
