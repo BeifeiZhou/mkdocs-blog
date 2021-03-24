@@ -1,3 +1,15 @@
-# Amazon is eating the software (which is eating the world around us)
-What selfies mean for avatars in VR and the way we perceive ourselves
-The first thing you do is visit the Eiffel Tower, which has been tempting you the whole time, peeking through the city’s legendary architecture. As you walk up to it, you see the familiar yet astonishing structure, defying you with its scale. There it is — you’ve seen it in pictures countless times, but this is different.
+# The fight against fake-paper factories that churn out sham science
+
+When Laura Fisher noticed striking similarities between research papers submitted to RSC Advances, she grew suspicious. None of the papers had authors or institutions in common, but their charts and titles looked alarmingly similar, says Fisher, the executive editor at the journal. “I was determined to try to get to the bottom of what was going on.”
+
+A year later, in January 2021, Fisher retracted 68 papers from the journal, and editors at two other Royal Society of Chemistry (RSC) titles retracted one each over similar suspicions; 15 are still under investigation. Fisher had found what seemed to be the products of paper mills: companies that churn out fake scientific manuscripts to order. All the papers came from authors at Chinese hospitals. The journals’ publisher, the RSC in London, announced in a statement that it had been the victim of what it believed to be “the systemic production of falsified research”.
+
+What was surprising about this was not the paper-mill activity itself: research-integrity sleuths have repeatedly warned that some scientists buy papers from third-party firms to help their careers. Rather, it was extraordinary that a publisher had publicly announced something that journals generally keep quiet about. “We believe that it is a paper mill, so we want to be open and transparent,” Fisher says.
+
+The RSC wasn’t alone, its statement added: “We are one of a number of publishers to have been affected by such activity.” Since last January, journals have retracted at least 370 papers that have been publicly linked to paper mills, an analysis by Nature has found, and many more retractions are expected to follow.
+
+Much of this literature cleaning has come about because, last year, outside sleuths publicly flagged papers that they think came from paper mills owing to their suspiciously similar features. Collectively, the lists of flagged papers total more than 1,000 studies, the analysis shows. Editors are so concerned by the issue that last September, the Committee on Publication Ethics (COPE), a publisher-advisory body in London, held a forum dedicated to discussing “systematic manipulation of the publishing process via paper mills”. Their guest speaker was Elisabeth Bik, a research-integrity analyst in California known for her skill in spotting duplicated images in papers, and one of the sleuths who posts their concerns about paper mills online.
+
+Bik thinks there are thousands more of these papers in the literature. The RSC’s announcement is significant for its openness, she says. “It is pretty embarrassing that so many papers are fake. Kudos to them to admit that they have been fooled.”
+
+At some journals that have had a spate of apparent paper-mill submissions, editors have now revamped their review processes, aiming not to be fooled again. Combating industrialized cheating requires stricter review: telling editors to ask for raw data, for instance, and hiring people specifically to check images. Science publishing needs a “concerted, coordinated effort to stamp out falsified research”, the RSC said.

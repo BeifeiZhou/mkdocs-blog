@@ -15,12 +15,12 @@ theme:
     search: 83   # s
 
 nav:
-  - Amazon is eating the software (which is eating the world around us): text1.md
-  - This is the replicate of the first text: text2.md
-  - This is the replicate of the first text: text3.md
-  - This is the replicate of the first text: text4.md
-  - This is the replicate of the first text: text5.md
-  - This is the replicate of the first text: text6.md
+  - What scientists do and don’t know about the Oxford–AstraZeneca COVID vaccine: text1.md
+  - The fight against fake-paper factories that churn out sham science: text2.md
+  - DNA-driven condensation assembles the meiotic DNA break machinery: text3.md
+  - Form a climate club United States, European Union and China: text4.md
+  - Effects of rising CO2 levels on carbon sequestration are coordinated above and below ground: text5.md
+  - Atomic clocks compared with astounding accuracy: text6.md
   
 
 markdown_extensions:

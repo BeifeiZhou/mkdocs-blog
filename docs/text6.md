@@ -1,3 +1,3 @@
-# Amazon is eating the software (which is eating the world around us)
-What selfies mean for avatars in VR and the way we perceive ourselves
-The first thing you do is visit the Eiffel Tower, which has been tempting you the whole time, peeking through the city’s legendary architecture. As you walk up to it, you see the familiar yet astonishing structure, defying you with its scale. There it is — you’ve seen it in pictures countless times, but this is different.
+# Atomic clocks compared with astounding accuracy
+
+The remarkable accuracy of atomic clocks makes them excellent instruments for timekeeping and other precision measurements. Writing in Nature, the Boulder Atomic Clock Optical Network (BACON) Collaboration1 reports extremely accurate comparisons of three world-leading clocks in Boulder, Colorado, housed at the National Institute of Standards and Technology (NIST) and the JILA research institute. The authors show how their clock comparisons provide insights into fundamental physics and represent substantial progress towards redefining the second in the International System of Units (SI).

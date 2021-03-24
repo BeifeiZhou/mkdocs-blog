@@ -1,3 +1,3 @@
-# Amazon is eating the software (which is eating the world around us)
-What selfies mean for avatars in VR and the way we perceive ourselves
-The first thing you do is visit the Eiffel Tower, which has been tempting you the whole time, peeking through the city’s legendary architecture. As you walk up to it, you see the familiar yet astonishing structure, defying you with its scale. There it is — you’ve seen it in pictures countless times, but this is different.
+# Effects of rising CO2 levels on carbon sequestration are coordinated above and below ground
+
+In a paper in Nature, Terrer et al.1 reveal an unexpected trade-off between the effects of rising atmospheric carbon dioxide levels on plant biomass and on stocks of soil carbon. Contrary to the assumptions encoded in most computational models of terrestrial ecosystems, the accrual of soil carbon is not positively related to the amount of carbon taken up by plants for biomass growth when CO2 concentrations increase. Instead, the authors show that carbon accumulates in soils when there is a small boost in plant biomass growth in response to CO2, and declines when the growth of biomass is high. Terrer et al. propose that associations of plants with mycorrhizal soil fungi are a key factor in this relationship between the above- and below-ground responses to elevated CO2 levels.
