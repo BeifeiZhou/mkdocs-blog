@@ -11843,7 +11843,7 @@ button.bg-dark:focus {
   }
   .mb-xl-8,
   .my-xl-8 {
-    margin-bottom: 7.5rem !important;
+    margin-bottom: 3.5rem !important;
   }
   .ml-xl-8,
   .mx-xl-8 {
@@ -14460,7 +14460,7 @@ section {
 
 @media (min-width: 992px) {
   section {
-    padding-top: 7.5rem;
+    padding-top: 3.5rem;
     padding-bottom: 7.5rem;
   }
 }
